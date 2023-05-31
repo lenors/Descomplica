@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  font-size: 1.7rem;
+  width: 300px;
+  height: 140px;
+  border-radius: 20px;
+  border: none;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+.container-resultado {
+  font-size: 2.3rem;
+  margin-top: 100px;
+  text-align: center;
+}
